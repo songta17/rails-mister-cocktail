@@ -1,0 +1,7 @@
+<h1>All Cocktails</h1>
+<h2>Number of cocktails: <%= @cocktails.count %></h2>
+<ul>
+<% @cocktails.each do |cocktail| %>
+  <li> <%=  cocktail %></li>
+<% end %>
+</ul>
