@@ -2,3 +2,40 @@
 @import "alert";
 @import "avatar";
 @import "navbar";
+
+.container {
+  background-color: white;
+  width: 900px;
+  margin-top: 30px;
+}
+
+.header-content {
+  padding: 20px;
+}
+
+.header-content h1 {
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  font-size: 60px;
+}
+
+
+
+
+// <div class="container">
+//   <div class="header-content">
+//     <h1>All Cocktails</h1>
+//     <p>Number of cocktails: <%= @cocktails.count %></p>
+//   </div>
+//   <div class="listing-content">
+//     <ul>
+//     <% @cocktails.each do |cocktail| %>
+//       <li> <%= link_to cocktail.name, cocktail_path(cocktail) %></li>
+//     <% end %>
+//     </ul>
+//   </div>
+//   <div class="link-add-cocktail">
+//     <%= link_to "+ Add a Cocktail", new_cocktail_path(@cocktail) %>
+//   </div>
+// </div>
+
